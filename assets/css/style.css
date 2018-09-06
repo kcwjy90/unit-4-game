@@ -1,0 +1,106 @@
+header{
+    height: 100px;
+    text-align: center;
+    width: auto;
+    margin-top: 40px;
+    margin-bottom:40px;
+    background: linear-gradient(rgb(92, 61, 17), rgb(37, 25, 14), rgb(92, 61, 17));
+}
+
+/* 158, 124, 92 */
+
+.mainbody{
+    height: 230px;
+    text-align: center;
+    margin: 10px;
+}
+
+.subbody{
+    height: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+.font2{
+    font-family: 'Concert One', cursive;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.title{
+    font-family: 'Monoton', cursive;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.smtitle{
+    font-family: 'Monoton', cursive;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.character{
+    font-family: 'Concert One', cursive;
+    color: rgb(88, 67, 9);
+    text-align: center;
+    font-size: 50px;
+}
+
+.characterlist{
+    margin-top: 30px;
+}
+
+.setimage{
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+} 
+
+.chartitle{
+    text-align: center;
+    font-size: 30px;
+    height: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: linear-gradient(rgb(92, 61, 17), rgb(37, 25, 14), rgb(92, 61, 17));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    display:inline-table;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.fancybutton{
+    height: 45px;
+    width: 250px;
+    font-size: 23px;
+    color: white;
+    background: linear-gradient(rgb(92, 61, 17), rgb(37, 25, 14), rgb(92, 61, 17));
+    border-radius: 10px;
+}
+
+/* .floating{
+    float: center;
+    z-index: 1;
+
+    position: relative;
+    top: -290px;
+    left: 360px;
+    color: red;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+} */
+
+body {
+    background-image: url("../images/background2.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+ }
