@@ -110,7 +110,7 @@ $(document).ready(function() {
         if (_myLife <= 0){
             alert("YOU LOST");   
             $(".mychar").html("<h1>YOU LOST</h1>"); 
-            $(".enemycharone").html("<h1> YOU WON</h1>");
+            $(".enemycharone").html("<h1>ENEMY WON</h1>");
             window.location.reload();
         }
         else if ( _enemyLife1 <= 0){
@@ -140,7 +140,7 @@ $(document).ready(function() {
                 if (_myLife <= 0){
                     alert("YOU LOST");
                     $(".mychar").html("<h1>YOU LOST</h1>"); 
-                    $(".enemychartwo").html("<h1> YOU WON</h1>");
+                    $(".enemychartwo").html("<h1>ENEMY WON</h1>");
                     window.location.reload();
                 }
                 else if ( _enemyLife2 <= 0){
@@ -166,7 +166,7 @@ $(document).ready(function() {
                         
                         if (_enemyLife3 <=0 ){
                             $("#fourthone").fadeTo("slow", 0.001); 
-                            $(".enemycharthree").html("<h1>I LOST</h1>");
+                            $(".enemycharthree").html("<h1>NO MORE ENEMY</h1>");
                             $(".mychar").html("<h1> YOU WIN!! Let's Play again</h1>"); 
                             
                             wait = setTimeout(function() { 
@@ -180,7 +180,7 @@ $(document).ready(function() {
                         else if (_myLife <= 0){
                             alert("YOU LOST");  
                             $(".mychar").html("<h1>YOU LOST</h1>"); 
-                            $(".enemycharthree").html("<h1> YOU WON</h1>");
+                            $(".enemycharthree").html("<h1>ENEMY WON</h1>");
                             window.location.reload();
                         }
                     
